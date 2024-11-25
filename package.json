@@ -1,0 +1,49 @@
+{
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "postinstall": "jetify"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.5",
+    "@react-navigation/web": "^1.0.0-alpha.9",
+    "expo": "~36.0.0",
+    "expo-image-picker": "^8.0.2",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "~0.61.4",
+    "react-native-cn-richtext-editor": "^2.0.0-rc3",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-material-textfield": "^0.16.1",
+    "react-native-media-meta": "0.0.10",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-safe-area-context": "0.6.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-size-matters": "^0.3.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-unimodules": "~0.7.0",
+    "react-native-walkthrough-tooltip": "^1.1.7",
+    "react-native-web": "~0.11.7",
+    "react-native-web-vector-icons": "^4.4.3",
+    "react-native-web-webview": "^0.2.8",
+    "react-native-webview": "^8.1.2",
+    "react-navigation": "^4.1.1",
+    "react-navigation-stack": "^2.1.1",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@expo/webpack-config": "^0.11.1",
+    "babel-jest": "~24.9.0",
+    "babel-preset-expo": "~8.0.0",
+    "jest": "~24.9.0",
+    "jetifier": "~1.6.4",
+    "metro-react-native-babel-preset": "~0.56.0",
+    "react-test-renderer": "~16.9.0"
+  },
+  "private": true
+}
